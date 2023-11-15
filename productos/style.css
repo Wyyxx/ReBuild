@@ -1,0 +1,66 @@
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 70px;
+    margin-right: 10px;
+}
+
+.bodyP {
+    background-color: #B9B8B5;
+    font-family: sans-serif;
+    margin: 0;
+}
+/* Seleccionar modelo del automovil */
+.contenedor {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 16px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* Fin seleccionar modelo del automovil */
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+    }
+}
+
+.titulo {
+    color: black;
+}
