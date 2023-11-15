@@ -1,0 +1,125 @@
+ricky@EVAU02 MINGW64 /c/xampp/htdocs
+$ git config --global user.name Wyyxx
+
+ricky@EVAU02 MINGW64 /c/xampp/htdocs
+$ git config --global user.email a1121120071@utch.edu.mx
+
+ricky@EVAU02 MINGW64 /c/xampp/htdocs
+$ git clone https://github.com/Wyyxx/ReBuild.git
+fatal: destination path 'ReBuild' already exists and is not an empty directory.
+
+ricky@EVAU02 MINGW64 /c/xampp/htdocs
+$ git clone https://github.com/Wyyxx/ReBuild.git
+Cloning into 'ReBuild'...
+warning: You appear to have cloned an empty repository.
+
+ricky@EVAU02 MINGW64 /c/xampp/htdocs
+$ cd Rebuild
+
+ricky@EVAU02 MINGW64 /c/xampp/htdocs/Rebuild (main)
+$ git status
+On branch main
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+ricky@EVAU02 MINGW64 /c/xampp/htdocs/Rebuild (main)
+$ git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Bd.php
+        ayuda/
+        imagenes/
+        index.html
+        productos/
+        style.css
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+ricky@EVAU02 MINGW64 /c/xampp/htdocs/Rebuild (main)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+ricky@EVAU02 MINGW64 /c/xampp/htdocs/Rebuild (main)
+$ git add .
+warning: in the working copy of 'Bd.php', LF will be replaced by CRLF the next time Git touches it
+
+ricky@EVAU02 MINGW64 /c/xampp/htdocs/Rebuild (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Bd.php
+        new file:   ayuda/ayuda.html
+        new file:   imagenes/ImagenesProd/motor.jpg
+        new file:   imagenes/LogoGrand.png
+        new file:   imagenes/imagenesIndex/Dis1.jpg
+        new file:   imagenes/imagenesIndex/Dis2.jpg
+        new file:   imagenes/imagenesIndex/Dis2prub.jpg
+        new file:   imagenes/imagenesIndex/Dis3.jpg
+        new file:   imagenes/imagenesIndex/HondaLog.png
+        new file:   imagenes/imagenesIndex/ManosMision.jpg
+        new file:   imagenes/imagenesIndex/MapaVision.jpg
+        new file:   imagenes/imagenesIndex/ToyotaLog.png
+        new file:   imagenes/imagenesIndex/VolksLog.png
+        new file:   imagenes/logo.png
+        new file:   index.html
+        new file:   productos/catalogo.html
+        new file:   productos/motor.html
+        new file:   productos/style.css
+        new file:   style.css
+
+
+ricky@EVAU02 MINGW64 /c/xampp/htdocs/Rebuild (main)
+$ git commit
+Aborting commit due to empty commit message.
+
+ricky@EVAU02 MINGW64 /c/xampp/htdocs/Rebuild (main)
+$ git commit -m "Añadiendo archivos"
+[main (root-commit) b4064d3] Añadiendo archivos
+ 19 files changed, 756 insertions(+)
+ create mode 100644 Bd.php
+ create mode 100644 ayuda/ayuda.html
+ create mode 100644 imagenes/ImagenesProd/motor.jpg
+ create mode 100644 imagenes/LogoGrand.png
+ create mode 100644 imagenes/imagenesIndex/Dis1.jpg
+ create mode 100644 imagenes/imagenesIndex/Dis2.jpg
+ create mode 100644 imagenes/imagenesIndex/Dis2prub.jpg
+ create mode 100644 imagenes/imagenesIndex/Dis3.jpg
+ create mode 100644 imagenes/imagenesIndex/HondaLog.png
+ create mode 100644 imagenes/imagenesIndex/ManosMision.jpg
+ create mode 100644 imagenes/imagenesIndex/MapaVision.jpg
+ create mode 100644 imagenes/imagenesIndex/ToyotaLog.png
+ create mode 100644 imagenes/imagenesIndex/VolksLog.png
+ create mode 100644 imagenes/logo.png
+ create mode 100644 index.html
+ create mode 100644 productos/catalogo.html
+ create mode 100644 productos/motor.html
+ create mode 100644 productos/style.css
+ create mode 100644 style.css
+
+ricky@EVAU02 MINGW64 /c/xampp/htdocs/Rebuild (main)
+$ git push
+Enumerating objects: 25, done.
+Counting objects: 100% (25/25), done.
+Delta compression using up to 20 threads
+Compressing objects: 100% (22/22), done.
+Writing objects: 100% (25/25), 7.09 MiB | 1.97 MiB/s, done.
+Total 25 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/Wyyxx/ReBuild.git
+ * [new branch]      main -> main
+
+ricky@EVAU02 MINGW64 /c/xampp/htdocs/Rebuild (main)
+$
